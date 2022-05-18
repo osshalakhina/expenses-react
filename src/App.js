@@ -6,7 +6,7 @@ const INITIAL_COSTS = [
   {
     id: "c1",
     date: new Date(2021, 2, 12),
-    description: "Холодильник",
+    description: "Fridge",
     amount: 999.99,
   },
   {
@@ -18,7 +18,7 @@ const INITIAL_COSTS = [
   {
     id: "c3",
     date: new Date(2022, 4, 1),
-    description: "Джинсы",
+    description: "Jeans",
     amount: 49.99,
   },
 ];

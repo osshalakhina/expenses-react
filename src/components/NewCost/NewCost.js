@@ -25,7 +25,7 @@ const NewCost = (props) => {
   return (
     <div className="new-cost">
       {!isFormVisible && (
-        <button onClick={inputCostDataHandler}>Добавить новый расход</button>
+        <button onClick={inputCostDataHandler}>Add new expense</button>
       )}
       {isFormVisible && (
         <CostForm
