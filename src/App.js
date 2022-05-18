@@ -1,44 +1,42 @@
-import CostItem from "./components/CostItem";
+import React, { useState } from "react";
+import NewCost from "./components/NewCost/NewCost";
+import Costs from "./components/Costs/Costs";
 
-function App() {
-  const costs = [
-    {
-      date: new Date(2021, 2, 12),
-      description: "Холодильник",
-      amount: 999.99,
-    },
-    {
-      date: new Date(2021, 11, 25),
-      description: "MacBook",
-      amount: 1254.72,
-    },
-    {
-      date: new Date(2021, 4, 1),
-      description: "Джинсы",
-      amount: 49.99,
-    },
-  ];
+const INITIAL_COSTS = [
+  {
+    id: "c1",
+    date: new Date(2021, 2, 12),
+    description: "Холодильник",
+    amount: 999.99,
+  },
+  {
+    id: "c2",
+    date: new Date(2021, 11, 25),
+    description: "MacBook",
+    amount: 1254.72,
+  },
+  {
+    id: "c3",
+    date: new Date(2022, 4, 1),
+    description: "Джинсы",
+    amount: 49.99,
+  },
+];
+
+const App = () => {
+  const [costs, setCosts] = useState(INITIAL_COSTS);
+  const addCostHandler = (cost) => {
+    setCosts((prevCosts) => {
+      return [cost, ...prevCosts];
+    });
+  };
 
   return (
     <div>
-      <h1>Начнем изучение React!</h1>
-      <CostItem
-        date={costs[0].date}
-        description={costs[0].description}
-        amount={costs[0].amount}
-      />
-      <CostItem
-        date={costs[1].date}
-        description={costs[1].description}
-        amount={costs[1].amount}
-      />
-      <CostItem
-        date={costs[2].date}
-        description={costs[2].description}
-        amount={costs[2].amount}
-      />
+      <NewCost onAddCost={addCostHandler} />
+      <Costs costs={costs} />
     </div>
   );
-}
+};
 
 export default App;
