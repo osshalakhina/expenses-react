@@ -2,7 +2,8 @@
 
 ### About project:
 
-This project was done according to the lectures on udemy ["Modern React from zero to pro"](https://www.udemy.com/course/react-np/learn/lecture/30525074?start=15#overview). It is app on React where we can create expenses which was done during few years.
+This project was done according to the lectures on udemy ["Modern React from zero to pro"](https://www.udemy.com/course/react-np/learn/lecture/30525074?start=15#overview). 
+"expenses-react" is an app on React where we can create expenses which was done during few years.
 
 ### Tehnology: 
 
@@ -12,9 +13,9 @@ This project was done according to the lectures on udemy ["Modern React from zer
 * React
 * Git
 
-# Getting Started with Create React App
+# Installation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ### `npm start`
 
