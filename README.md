@@ -26,7 +26,7 @@ If everything went right, the project will be launched on [http://localhost:3000
 
 # Additional programs which I used:
 
-Video to gif was done through[https://ezgif.com/video-to-gif](https://ezgif.com/video-to-gif)
+Video to gif was done through [https://ezgif.com/video-to-gif](https://ezgif.com/video-to-gif)
 
 Optimization of images was done through [https://ezgif.com/optimize](https://ezgif.com/optimize)
 
