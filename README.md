@@ -17,15 +17,8 @@ This project was done according to the lectures on udemy ["Modern React from zer
 To run on a local machine, you need:
 
 1. Install npm dependencies:
-npm install
+### `npm install`
 2. Run in development mode:
-npm run start
+### `npm run start`
 
-If everything went well, the project will be launched on http://localhost:3000
-
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
+If everything went right, the project will be launched on [http://localhost:3000](http://localhost:3000)
