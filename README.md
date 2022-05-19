@@ -24,4 +24,4 @@ To run on a local machine, you need:
 
 If everything went right, the project will be launched on [http://localhost:3000](http://localhost:3000)
 
-![project](Project.gif)
+![](Project.gif)
