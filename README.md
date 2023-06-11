@@ -2,8 +2,6 @@
 
 ### About project:
 
-This project was done according to the lectures on udemy ["Modern React from zero to pro"](https://www.udemy.com/course/react-np/). 
-
 "expenses-react" is an app on React where we can create expenses which was done during few years.
 
 ### Tehnology: 
